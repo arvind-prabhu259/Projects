@@ -1,1 +1,2 @@
-
+Project created for the course COMPUTER COMMUNICATION AND NETWORKING
+It is a chatroom based on client server architecture. The master hosts the chatroom, while clients are users in the chatroom. Pipelines are used to facilitate connections between the clients and the server. Users may join only after the chatroom is created but may leave at any time.
