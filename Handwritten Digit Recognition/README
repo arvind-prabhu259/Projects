@@ -1,0 +1,10 @@
+Handwritten Digit Recognition.
+The model is trained on the MNIST dataset.
+OpenCV is used to detect digits in the input image and the model makes predictions on them.
+The output is printed along with the image of the bounding box
+
+ISSUES:
+Random contours, blurry images
+
+SOLUTIONS:(to be implemented)
+limit size of bounding boxes.
