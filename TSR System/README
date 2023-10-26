@@ -1,1 +1,5 @@
 Trafiic Sign Recognition System
+The system was created to identify traffic signs from input images.
+The model uses a CNN and is trained on a dataset of German traffic signs. The dataset contains 51839 32px*32px RGB images of  42 types of traffic signs. During preprocessing, the images are converted to grayscale. Histogram equalization is used to standardise contrast in all images.
+The Keras ImageDataGenerator is used to generate batches of tensor image data with real-time data augmentation. One-hot encoding is used for the labels.
+After training for 150 epochs, the model achieved an accuracy of 0.93 on the training set and 0.95 on the test set.
