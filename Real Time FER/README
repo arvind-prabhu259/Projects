@@ -1,1 +1,6 @@
 Real time emotion recognition
+The system performs facial emotion recognition on an input video feed. 
+A CNN is used to extract features from the input image, which the fully connected layers use to identify the emotion being displayed. 
+The model was trained on the FER 2013 dataset, containing 35,887 grayscale images of faces. These images are divided into seven different emotion categories: angry, disgust, fear, happy, sad, surprise, and neutral.
+After training fppr 25 epochs, the model achieved a peak accuracy of
+OpenCV is used to process the input video from the webcam and extract frames.
