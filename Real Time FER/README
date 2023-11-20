@@ -9,3 +9,4 @@ OpenCV is used to process the input video from the webcam. The Haar cascade Clas
 The areas contained within the bounding boxes are converted to grayscale and resized before the CNN model makes predictions on them. The predicted emotion is displayed on the screen.
 
 ISSUES: the model has issues recognizing disgust and sadness. solution: more input data in those 2 categories.
+Attempt to create synthetic data points in disgust, sadness.
